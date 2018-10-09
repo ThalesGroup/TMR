@@ -23,6 +23,6 @@ git submodule update --init firrtl chisel3 torture hardfloat
 
 # submodules thales-risc-v-chisel-project
 cd $BASE_DIR/thales-risc-v-chisel-project
+git submodule update --init testchipip
 cd rocket-chip
-git submodule update --init firrtl chisel3 torture hardfloat
-
+git submodule update --init firrtl chisel3 torture hardfloat 
