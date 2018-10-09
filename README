@@ -1,0 +1,7 @@
+# 1 - How to generate the bitstream :
+
+# retrieve submodules for generation
+./git.sh
+
+# build RTL files
+./chiesel.sh
