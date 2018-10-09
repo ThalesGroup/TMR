@@ -58,8 +58,8 @@ echo "set_property synth_checkpoint_mode Hierarchical [get_files ./${PROJECT_NAM
 echo "set_property top design_1_wrapper [current_fileset]"
 
 echo
-echo "#uncomment this to automatically run synthesis and implementation"
-echo "#launch_runs synth_1 -jobs 6"
-echo "#wait_on_run synth_1"
-echo "#launch_runs impl_1 -to_step write_bitstream"
-echo "#wait_on_run impl_1"
+echo "#comment this to remove automatically run synthesis and implementation"
+echo "launch_runs synth_1 -jobs 6"
+echo "wait_on_run synth_1"
+echo "launch_runs impl_1 -to_step write_bitstream"
+echo "wait_on_run impl_1"
