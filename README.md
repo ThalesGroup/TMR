@@ -3,13 +3,13 @@
 
 ## Licencing
 
-Chiesel project and associated binaries (RTL and bitstream) are released with a BSD licence.
+Chisel project and associated binaries (RTL and bitstream) are released with a BSD licence.
 Modifications in the ultrascale linux, u-boot, zephyrOS and openOCD are released under GPL licence.
 
 ## Running the demo straight away
 
 This README file helps you regenerate the full project. For that you will need 
-- chiesel tools
+- chisel tools
 - Vivado licence for the Ultrascale+
 - riscv-tools
 - zephyr-sdk
@@ -21,7 +21,7 @@ dd bs=1m if=demo-sd-card-img of=/dev/yoursdcard/
 
 ## Source retrieval
 
-Four IP cores has been written in chiesel for this project.
+Four IP cores has been written in chisel for this project.
 - chisel-project
 - registers-router
 - jtag-router 
@@ -35,10 +35,10 @@ They are git submodules that need to be retrieved with the following script.
 
 ## Bitstream generation
 
-To regenerate the chiesel projects, use this script
+To regenerate the chisel projects, use this script
 
 ```Bash
-./chiesel.sh
+./chisel.sh
 ```
 It will generate verilog files that need to be copied in the thales-risc-v-vivado project.
 To launch synthesis and implementation run the vivado.sh script. You will need to have vivado sourced here. 
