@@ -1,4 +1,6 @@
 #!/bin/bash
+# Copyright © 2018. Thales SA
+# All rights reserved
 #
 # vivado tcl generator
 #
