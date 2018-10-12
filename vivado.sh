@@ -17,6 +17,9 @@ REGROUT=$BASE_DIR/thales-risc-v-registers-router/RegsRouter.v
 VIVADOREGROUT=$BASE_DIR/thales-risc-v-vivado/git/ip_repo/regs_router_1.0/src/
 cp $REGROUT $VIVADOREGROUT
 
+# copy rocket vsrc
+cp $BASE_DIR/thales-risc-v-chisel-project/rocket-chip/vsrc/*.v $BASE_DIR/thales-risc-v-vivado/git/ip_repo/risc_v_CPU_1.0/src/
+
 # generate project (you need to have vivado sourced here)
 cd $BASE_DIR/thales-risc-v-vivado
 ./git/tools/generate_project.sh > project.tcl

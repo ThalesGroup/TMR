@@ -3,8 +3,15 @@
 
 ## Licencing
 
-Chisel project and associated binaries (RTL and bitstream) are released with a BSD licence.
-Modifications in the ultrascale linux, u-boot, zephyrOS and openOCD are released under GPL licence.
+The source and RTL files coming from thales-risc-v-registers-router, thales-risc-v-jtag-router, thales-risc-v-chisel-project and thales-risc-v-fault-detector are released under the BSD 3 clauses. 
+The modifications of the Rocket-chip generator in the thales-risc-v-chisel-project are released under the BSD 3 clauses.
+The rocket-chip generator is located at https://github.com/freechipsproject/rocket-chip.
+The solution parts of the thales-risc-v-vivado and the bistream it generates are released under the BSD 3 clauses.
+Modifications in the ultrascale linux, u-boot, zephyrOS and openOCD are released under GNU GPL v2 Licence.
+
+## Thanks
+
+We would like to thank Antmicro for the successful colaboration on this project.
 
 ## Running the demo straight away
 
