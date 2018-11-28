@@ -1,12 +1,12 @@
 [submodule "thales-risc-v-chisel-project"]
 	path = thales-risc-v-chisel-project
-	url = git@172.17.72.73:/home/eyssartk/Drive/TMR_OSS/thales-risc-v-chisel-project/
+	url = https://github.com/Thales-RISC-V/thales-risc-v-registers-router
 [submodule "thales-risc-v-registers-router"]
 	path = thales-risc-v-registers-router
-	url = git@172.17.72.73:/home/eyssartk/Drive/TMR_OSS/thales-risc-v-registers-router/
+	url = https://github.com/Thales-RISC-V/thales-risc-v-registers-router/
 [submodule "thales-risc-v-jtag-router"]
 	path = thales-risc-v-jtag-router
-	url = git@172.17.72.73:/home/eyssartk/Drive/TMR_OSS/thales-risc-v-jtag-router/
+	url = https://github.com/Thales-RISC-V/thales-risc-v-jtag-router/
 [submodule "thales-risc-v-fault-detector"]
 	path = thales-risc-v-fault-detector
-	url = git@172.17.72.73:/home/eyssartk/Drive/TMR_OSS/thales-risc-v-fault-detector/
+	url = https://github.com/Thales-RISC-V/thales-risc-v-fault-detector/
