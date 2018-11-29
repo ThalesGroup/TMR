@@ -19,3 +19,6 @@
 [submodule "riscv-zephyr"]
 	path = riscv-zephyr
 	url = https://github.com/Thales-RISC-V/riscv-zephyr
+[submodule "riscv-openocd"]
+	path = riscv-openocd
+	url = https://github.com/Thales-RISC-V/riscv-openocd
