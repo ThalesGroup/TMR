@@ -21,11 +21,6 @@ This README file helps you regenerate the full project. For that you will need
 - riscv-tools
 - zephyr-sdk
 
-Or you can directly flash the SD card with the provided image 
-```Bash
-dd bs=1m if=demo-sd-card-img of=/dev/yoursdcard/ 
-```
-
 ## Source retrieval
 
 Four IP cores has been written in chisel for this project.
