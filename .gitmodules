@@ -16,3 +16,6 @@
 [submodule "ultrascale-linux"]
 	path = ultrascale-linux
 	url = https://github.com/Thales-RISC-V/ultrascale-linux
+[submodule "riscv-zephyr"]
+	path = riscv-zephyr
+	url = https://github.com/Thales-RISC-V/riscv-zephyr
