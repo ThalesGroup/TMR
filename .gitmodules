@@ -13,3 +13,6 @@
 [submodule "ultrascale-u-boot"]
 	path = ultrascale-u-boot
 	url = https://github.com/Thales-RISC-V/ultrascale-u-boot
+[submodule "ultrascale-linux"]
+	path = ultrascale-linux
+	url = https://github.com/Thales-RISC-V/ultrascale-linux
