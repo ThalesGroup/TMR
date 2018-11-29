@@ -10,3 +10,6 @@
 [submodule "thales-risc-v-fault-detector"]
 	path = thales-risc-v-fault-detector
 	url = https://github.com/Thales-RISC-V/thales-risc-v-fault-detector/
+[submodule "ultrascale-u-boot"]
+	path = ultrascale-u-boot
+	url = https://github.com/Thales-RISC-V/ultrascale-u-boot
