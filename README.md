@@ -1,17 +1,17 @@
 
 # Triple Module Redundancy
 
-## Licencing
+## Licensing
 
 The source and RTL files coming from thales-risc-v-registers-router, thales-risc-v-jtag-router, thales-risc-v-chisel-project and thales-risc-v-fault-detector are released under the BSD 3 clauses. 
 The modifications of the Rocket-chip generator in the thales-risc-v-chisel-project are released under the BSD 3 clauses.
 The rocket-chip generator is located at https://github.com/freechipsproject/rocket-chip.
 The solution parts of the thales-risc-v-vivado and the bistream it generates are released under the BSD 3 clauses.
-Modifications in the ultrascale linux, u-boot, zephyrOS and openOCD are released under GNU GPL v2 Licence.
+Modifications in the ultrascale linux, u-boot, zephyrOS and openOCD are released under GNU GPL v2 License.
 
 ## Thanks
 
-We would like to thank Antmicro for the successful colaboration on this project.
+We would like to thank Antmicro for the successful collaboration on this project.
 
 ## Running the demo straight away
 
@@ -23,7 +23,7 @@ This README file helps you regenerate the full project. For that you will need
 
 ## Source retrieval
 
-Four IP cores has been written in chisel for this project.
+Four IP cores have been written in chisel for this project.
 - chisel-project
 - registers-router
 - jtag-router 
