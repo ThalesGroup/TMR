@@ -1,6 +1,6 @@
 [submodule "thales-risc-v-chisel-project"]
 	path = thales-risc-v-chisel-project
-	url = https://github.com/Thales-RISC-V/thales-risc-v-registers-router
+	url = https://github.com/Thales-RISC-V/thales-risc-v-chisel-project
 [submodule "thales-risc-v-registers-router"]
 	path = thales-risc-v-registers-router
 	url = https://github.com/Thales-RISC-V/thales-risc-v-registers-router/
